@@ -123,10 +123,6 @@ const controlAddRecipe = async function (newRecipe) {
   }
 };
 
-const newFeature = function () {
-  console.log('Welcome to the application');
-};
-
 const init = function () {
   // controlRecipes() is a subscriber, which subscribes to publisher - recipeView.addHendlerRender()
   bookmarksView.addHandlerRender(controlBookmarks);
@@ -140,7 +136,5 @@ const init = function () {
   paginationView.addHandlerClick(controlPagination);
 
   addRecipeView.addHandlerUpload(controlAddRecipe);
-
-  newFeature();
 };
 init();
