@@ -125,6 +125,7 @@ const controlAddRecipe = async function (newRecipe) {
 
 const newFeature = function () {
   console.log('Welcome to the application');
+  console.log('You can search for recipes and upload your own recipes');
 };
 
 const init = function () {
